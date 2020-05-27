@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:res="clr-namespace:L047.Properties"
         xmlns:local="clr-namespace:L047"
         mc:Ignorable="d"
         Title="MainWindow" Height="282" Width="669">
@@ -11,7 +12,7 @@
     </Window.Resources>
     <Grid>
         <Label 
-            Content="Label" 
+            Content="{x:Static res:Resources.test}" 
             HorizontalAlignment="Left"
             Margin="100,50,0,0" 
             VerticalAlignment="Top" 
